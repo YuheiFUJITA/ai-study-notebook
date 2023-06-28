@@ -1,0 +1,27 @@
+name: リクエスト
+description: 新しく書いてほしいノートのリクエスト
+title: "[Request]: "
+labels: 
+  - "request"
+assignees:
+  - YuheiFUJITA
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: category
+      description: カテゴリー
+      multiple: false
+      options:
+        - 座学
+        - ハンズオン
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 詳細
+      description: どのような内容のノートを書いてほしいか記入してください。
+      placeholder: 詳細
+    validations:
+      required: true

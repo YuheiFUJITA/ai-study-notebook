@@ -20,3 +20,5 @@ body:
       label: 詳細
       description: 修正内容の詳細を記入してください
       placeholder: 詳細
+    validations:
+      required: true
