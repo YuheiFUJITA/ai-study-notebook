@@ -1,0 +1,22 @@
+name: 修正依頼
+description: ノートに誤りがあった場合はこちらからご報告ください。
+title: "[Fix]: "
+labels: 
+  - "fix"
+assignees:
+  - YuheiFUJITA
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: 修正対象のURL
+      placeholder: https://yuheifujita.github.io/
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 詳細
+      description: 修正内容の詳細を記入してください
+      placeholder: 詳細
