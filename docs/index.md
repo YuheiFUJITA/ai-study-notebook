@@ -19,6 +19,6 @@ features:
   - icon: 📚
     title: ノートブック
     details: AIに関する学習のためのノートを公開しています。
-    link: /Notebook/
+    link: /notebook/
     linkText: ノートブック一覧へ
 ---
