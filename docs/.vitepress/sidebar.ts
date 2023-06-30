@@ -1,10 +1,8 @@
 import { DefaultTheme } from "vitepress";
-import handsOn from "./sidebar-hands-on";
-import doc from "./sidebar-doc";
+import notebook from "./sidebar-notebook";
 
 const sidebar: DefaultTheme.Sidebar = {
-  "/doc/": doc,
-  "/hands-on/": handsOn,
+  "/notebook/": notebook,
 };
 
 export default sidebar;

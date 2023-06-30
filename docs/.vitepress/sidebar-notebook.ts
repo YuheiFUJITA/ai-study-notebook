@@ -1,12 +1,12 @@
 import { DefaultTheme } from "vitepress";
 
-const doc: DefaultTheme.SidebarItem[] = [
+const notebook: DefaultTheme.SidebarItem[] = [
   {
     text: "座学",
     items: [
       {
         text: "はじめに",
-        link: "/doc/",
+        link: "/notebook/",
       },
       {
         text: "初級",
@@ -14,14 +14,19 @@ const doc: DefaultTheme.SidebarItem[] = [
         items: [
           {
             text: "Markdown",
-            link: "/doc/markdown",
+            link: "/notebook/markdown",
           },
         ],
       },
       {
         text: "中級",
         collapsed: false,
-        items: [],
+        items: [
+          {
+            text: "ChatGPT Plugin",
+            link: "/notebook/chat-gpt-plugin",
+          },
+        ],
       },
       {
         text: "上級",
@@ -32,4 +37,4 @@ const doc: DefaultTheme.SidebarItem[] = [
   },
 ];
 
-export default doc;
+export default notebook;

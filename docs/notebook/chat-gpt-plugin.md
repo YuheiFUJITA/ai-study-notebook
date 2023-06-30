@@ -1,4 +1,12 @@
-# ChatGPT Plugin <Badge type="warning" text="中級" />
+---
+layout: note
+writer: YuheiFUJITA
+category: doc
+tags:
+  - ChatGPT
+---
+
+# ChatGPT Plugin
 
 こちらはChatGPT上で利用できるPluginを実装するハンズオンです。
 
