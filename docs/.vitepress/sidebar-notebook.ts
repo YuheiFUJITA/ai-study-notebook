@@ -19,7 +19,11 @@ const notebook: DefaultTheme.SidebarItem[] = [
           {
             text: "ハルシネーション",
             link: "/notebook/hallucination",
-          }
+          },
+          {
+            text: "ChatGPT",
+            link: "/notebook/chat-gpt",
+          },
         ],
       },
       {
