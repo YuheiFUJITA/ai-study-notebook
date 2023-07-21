@@ -54,7 +54,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        "https://github.com/YuheiFUJITA/ai-study-notebook/commits/main/notebook/docs/:path",
+        "https://github.com/YuheiFUJITA/ai-study-notebook/commits/main/docs/:path",
       text: "GitHubで更新履歴を見る",
     },
     lastUpdatedText: "最終更新日",
