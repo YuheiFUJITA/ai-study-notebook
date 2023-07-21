@@ -2,7 +2,7 @@ import { DefaultTheme } from "vitepress";
 
 const notebook: DefaultTheme.SidebarItem[] = [
   {
-    text: "座学",
+    text: "ノートブック",
     items: [
       {
         text: "はじめに",
