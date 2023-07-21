@@ -1,3 +1,5 @@
+import markdownItLatex from "markdown-it-katex";
+import markdownItPlantuml from "markdown-it-plantuml";
 import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
 import nav from "./nav";
@@ -26,12 +28,23 @@ export default defineConfig({
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-HCCL187WLM');",
     ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css",
+      },
+    ],
   ],
   lang: "ja-JP",
   title: "AI Study Notebook",
   description: "Let's study AI.",
   markdown: {
     lineNumbers: true,
+    config: (md) => {
+      md.use(markdownItLatex);
+      md.use(markdownItPlantuml);
+    },
   },
   lastUpdated: true,
   themeConfig: {
