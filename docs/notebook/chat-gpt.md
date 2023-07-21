@@ -32,7 +32,7 @@ ChatGPTは基本無料で利用できますが、利用する上での注意点�
 
 ### 入力内容は学習データとして利用される
 
-ChatPGTを提供している[OpenAIの利用規約](https://openai.com/policies/terms-of-use)には、以下のように記載されています。
+ChatGPTを提供している[OpenAIの利用規約](https://openai.com/policies/terms-of-use)には、以下のように記載されています。
 
 > (c) Use of Content to Improve Services. We do not use Content that you provide to or receive from our API (“API Content”) to develop or improve our Services. We may use Content from Services other than our API (“Non-API Content”) to help develop and improve our Services. You can read more here about how Non-API Content may be used to improve model performance. If you do not want your Non-API Content used to improve Services, you can opt out by filling out this form. Please note that in some cases this may limit the ability of our Services to better address your specific use case.
 >
@@ -52,7 +52,7 @@ ChatPGTを提供している[OpenAIの利用規約](https://openai.com/policies/
 
 ### コンテンツに対する権利と責任はユーザーにある
 
-ChatPGTを提供している[OpenAIの利用規約](https://openai.com/policies/terms-of-use)には、以下のように記載されています。
+ChatGPTを提供している[OpenAIの利用規約](https://openai.com/policies/terms-of-use)には、以下のように記載されています。
 
 > (a) Your Content. You may provide input to the Services (“Input”), and receive output generated and returned by the Services based on the Input (“Output”). Input and Output are collectively “Content.” As between the parties and to the extent permitted by applicable law, you own all Input. Subject to your compliance with these Terms, OpenAI hereby assigns to you all its right, title and interest in and to Output. This means you can use Content for any purpose, including commercial purposes such as sale or publication, if you comply with these Terms. OpenAI may use Content to provide and maintain the Services, comply with applicable law, and enforce our policies. You are responsible for Content, including for ensuring that it does not violate any applicable law or these Terms.
 >
