@@ -16,6 +16,10 @@ const notebook: DefaultTheme.SidebarItem[] = [
             text: "Markdown",
             link: "/notebook/markdown",
           },
+          {
+            text: "ハルシネーション",
+            link: "/notebook/hallucination",
+          }
         ],
       },
       {
